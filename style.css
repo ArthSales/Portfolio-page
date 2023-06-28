@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+@import url("./css/cabecalho.css");
+@import url("./css/apresentacao.css");
+@import url("./css/sobremim.css");
+@import url("./css/portfolio.css");
+@import url("./css/rodape.css");
+/* Variáveis globais */
+
+:root {
+    --vermelho: #cc3c57;
+    --vermelho-claro: #ff887f;
+    --cinza-escuro: #272727;
+    --cinza-claro: #818181;
+    --preto: #000000;
+    --azul-escuro: #345878;
+    --cor-textos: #feffff;
+    --fonte-textos: 'Open Sans', sans-serif;
+}
+
+body {
+    background: var(--preto);
+    color: var(--cor-textos);
+    font-family: var(--fonte-textos);
+}
+
+:target {
+    display: block;    
+    position: relative;     
+    top: -80px;
+    visibility: hidden;
+}

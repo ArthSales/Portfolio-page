@@ -1,0 +1,54 @@
+.rodape__container {
+    scroll-padding-top: 2em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--vermelho-claro);
+}
+
+/* lista de contato  */
+
+.contato__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 80vw;
+}
+
+.contato__item {
+    display: flex;
+    justify-content: flex-start;
+    transition: transform 500ms;
+}
+
+.contato__item:hover {
+    transform: translateY(-0.4rem);
+}
+
+.contato__ancora {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
+.rodape__link:hover {
+    color: var(--vermelho);
+}
+
+@media (min-width: 1440px) {
+
+    .contato__item {
+        justify-content: center;
+    }
+}

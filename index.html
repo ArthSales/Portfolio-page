@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho" id="cabecalho">
+        <div class="cabecalho__container">
+            <img src="img/cv.png" alt="Logo da página" class="logo">
+            <ul class="cabecalho__menu">
+                <li class="menu__item"><a href="#sobre-mim" class="item__link">Sobre mim</a></li>
+                <li class="menu__item"><a href="#projetos" class="item__link">Projetos</a></li>
+                <li class="menu__item"><a href="#rodape" class="item__link retira__borda">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="conteudo">
+
+        <!-- Apresentacao-conteudo -->
+        <div class="conteudo__apresentacao apresentacao__container">
+                <h2 class="apresentacao__nome"><a name="apresentacao"></a>Arthur Sales</h2>
+                <a href="#" target="_blank" ><img src="img/foto.png" alt="Foto de Arthur Sales" class="apresentacao__foto"></a>
+                <h3 class="apresentacao__titulo titulos">Desenvolvedor front-end_</h3>
+                <p class="apresentacao__texto textos">Sou um Dev. Front-end que adora resolver problemas, e transformar ideias em realidade. Bem vindo a minha página de portfolio, onde pode ver os projetos que tenho utilizado para aperfeiçoar minhas habilidades. Meu objetivo principal no momento é aprender e me desenvolver na área enquanto entrego resultados. Curso <strong class="texto-destaque">Ciência da Computação</strong> pela Universidade Federal do ABC (UFABC). Tech stack: <strong class="texto-destaque">HTML, CSS, JavaScript, Git.</strong></p>
+                <ul class="apresentacao-nav">
+                    <li class="nav__item">
+                        <a class="apresentacao-link" href="https://github.com/ArthSales" target="_blank">
+                            <img src="img/github.png" alt="github" class="link__img">Github
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="apresentacao-link" href="https://www.linkedin.com/in/arthur-sales-nascimento/" target="_blank">
+                            <img src="img/linkedin.png" alt="linkedin" class="link__img">LinkedIn
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="apresentacao-link" href="https://drive.google.com/file/d/1KazsMk2KMhelyGG1q8o1hnRjPka57SqI/view?usp=sharing" target="_blank" >
+                            <img src="img/curriculo.png" alt="Currículo" class="curriculo__img">Currículo
+                        </a>
+                    </li>
+                </ul>
+        </div>
+
+        <!-- Sobre mim -->
+        <a name="sobre-mim" id="sobre-mim"></a>
+        <div class="conteudo__sobre-mim sobre-mim__container">
+            <!-- <a name="sobre-mim" id="sobre-mim"></a> -->
+            <div class="sobre-mim__resumo">
+                <h2 class="sobre-mim__titulo titulos">Sobre mim_</h2>
+                <h3 class="sobre-mim__subtitulo subtitulos">Front-end Developer_</h3>
+                <p class="sobre-mim__texto textos">Adoro resolver problemas, especialmente problemas lógicos, e aprendo muito rápido, além de ser muito dedicado a assuntos de programação e tecnologia. Tenho inglês intermediário para avançado, proficiente para leitura técnica, além disso, trabalho bem em equipe, sou proativo, comunicativo e receptivo à feedbacks. Tenho conhecimento intermediário de HTML, CSS, com alguns projetos em portfólio, ademais trabalhei 1 ano no setor de análise e migração dos dados, utilizava o Excel, MySQL e Python, para seleção, controle e análise dos dados, além de ferramentas para tal, como Navicat e Dbeaver.</p>
+            </div>
+            <div class="sobre-mim__skills">
+                <ul class="skills__lista">
+                    <li class="skill__item">
+                        <div class="item-titulo__container">
+                            <h3 class="skill__titulo">HTML5 & CSS3</h3>
+                            <h3 class="skill__porcentagem">80%</h3>
+                        </div>
+                        <div class="skill__porcentagem-borda">
+                            <div class="porcentagem-barra"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item">
+                        <div class="item-titulo__container">
+                            <h3 class="skill__titulo">JavaScript</h3>
+                            <h3 class="skill__porcentagem">70%</h3>
+                        </div>
+                        <div class="skill__porcentagem-borda">
+                            <div class="porcentagem-barra percentual2"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item">
+                        <div class="item-titulo__container">
+                            <h3 class="skill__titulo">SEO</h3>
+                            <h3 class="skill__porcentagem">50%</h3>
+                        </div>
+                        <div class="skill__porcentagem-borda">
+                            <div class="porcentagem-barra percentual3"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item">
+                        <div class="item-titulo__container">
+                            <h3 class="skill__titulo">Responsividade</h3>
+                            <h3 class="skill__porcentagem">100%</h3>
+                        </div>
+                        <div class="skill__porcentagem-borda">
+                            <div class="porcentagem-barra percentual4"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="portfolio">
+            <a name="projetos"></a>
+            <h2 class="portfolio__titulo titulos">Projetos</h2>
+            <div class="portfolio__projeto">
+                <div class="projeto__explicacao">
+                    <h3 class="projeto__titulo subtitulos">Alura Books</h3>
+                    <p class="projeto__texto textos">Página de uma livraria, produzida no curso de Responsividade com mobile-first da Alura. Nele fixei e apliquei conhecimentos de responsividade, com media queries definidas, e de estilização a partir de um Figma, para telas mobile, tablet, e desktop.</p>
+                    <ul class="projeto__tecnologias">
+                        <li class="tecnologias__item">Media Querie</li>
+                        <li class="tecnologias__item">HTML5</li>
+                        <li class="tecnologias__item">CSS3</li>
+                    </ul>
+                    <ul class="projetos__nav">
+                        <li class="projetos__nav__link"><a href="https://arthsales.github.io/AluraBooks/" target="_blank" class="nav__link"><img src="./img/visualizar.png" alt="ícone para visualização do projeto via githubpages" class="projetos__link__img"></a></li>
+                        <li class="projetos__nav__link"><a href="https://github.com/ArthSales/AluraBooks" target="_blank" class="nav__link"><img src="./img/codigo.png" alt="ícone para visualização do código do projeto" class="projetos__link__img"></a></li>
+                    </ul>
+                </div>
+                <img src="./img/Alura-books.jpeg" alt="Imagem AluraBooks" class="projeto__imagem">
+            </div>
+            <div class="portfolio__projeto__impar">
+                <div class="projeto__explicacao">
+                    <h3 class="projeto__titulo subtitulos">Newspaper Homepage</h3>
+                    <p class="projeto__texto textos">Homepage de um jornal, produzida no desafio da plataforma FrontEndMentor.io. Meu foco nesse projeto é aplicar a responsividade de outra maneira, utilizando grid display. O interessante desse projeto foi desenhar o layout a partir somente de um jpg, sem figma.</p>
+                    <ul class="projeto__tecnologias">
+                        <li class="tecnologias__item">HTML5</li>
+                        <li class="tecnologias__item">CSS3</li>
+                        <li class="tecnologias__item">Grid</li>
+                    </ul>
+                    <ul class="projetos__nav">
+                        <li class="projetos__nav__link"><a href="https://arthsales.github.io/Newspaper-homepage/" target="_blank" class="nav__link"><img src="./img/visualizar.png" alt="ícone para visualização do projeto via githubpages" class="projetos__link__img"></a></li>
+                        <li class="projetos__nav__link"><a href="https://github.com/ArthSales/Newspaper-homepage" target="_blank" class="nav__link"><img src="./img/codigo.png" alt="ícone para visualização do código do projeto" class="projetos__link__img"></a></li>
+                    </ul>
+                </div>
+                <img src="./img/newspaper-homepage.jpeg" alt="Imagem Newspaper-Homepage" class="projeto__imagem">
+            </div>
+        </div>
+    </main>
+
+    <!--Contato -->
+    <footer class="rodape">
+        <a name="rodape"></a>
+        <div class="rodape__container">
+            <div class="rodape__contato">
+                <ul class="contato__lista">
+                    <li class="contato__item">
+                        <a href="#" class="contato__ancora">
+                            <img src="img/whatsapp.png" alt="Whatsapp logo">+55 (11) 95170-1551
+                        </a>
+                    </li>
+                    <li class="contato__item">
+                        <a href="#" class="contato__ancora">
+                            <img src="img/email.png" alt="Logo email">arthur.snascimento01@gmail.com
+                        </a>
+                    </li>
+                    <li class="contato__item"></li>
+                </ul>
+            </div>
+                <h3>Desenvolvido por <a href="#" class="rodape__link">Arthur Sales</a>.</h3>
+        </div>
+    </footer>
+
+    <!-- alfredo-hernandez -->
+</body>
+
+</html>
